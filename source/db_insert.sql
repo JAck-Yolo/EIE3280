@@ -17,6 +17,12 @@ COLUMNS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL
+INFILE 'source/data_generation/dataset/history_order.csv'
+INTO TABLE history_order
+COLUMNS TERMINATED BY ','
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
 -- SET FOREIGN_KEY_CHECKS = 1;
 -- DELETE FROM `machine_type`;
 -- DELETE FROM `chip`;

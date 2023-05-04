@@ -1,0 +1,5 @@
+m_tag	m_id	distance	consumption_pp	bayesranking	number_discount	consumption_pp_deviation	num_his
+1	0	3000	25	3.9189	6	0.0856	1
+2	0	2900	4.1424	3.6304	6	-1	1
+3	0	2500	16	4.0813	6	-0.0127	2
+1	4	3800	28	3.9173	6	0.2158	1
